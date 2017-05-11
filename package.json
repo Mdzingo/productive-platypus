@@ -1,0 +1,25 @@
+{
+  "name": "productive-platypus",
+  "version": "1.0.0",
+  "description": "Productivity App for school.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mdzingo/productive-platypus.git"
+  },
+  "author": "Morgan Monzingo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mdzingo/productive-platypus/issues"
+  },
+  "homepage": "https://github.com/Mdzingo/productive-platypus#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "mongodb": "^2.2.26",
+    "mysql": "^2.13.0",
+    "nodemon": "^1.11.0"
+  }
+}
